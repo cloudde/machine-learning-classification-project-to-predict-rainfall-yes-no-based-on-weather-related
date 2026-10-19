@@ -1,7 +1,7 @@
 🌧️ Rainfall Prediction using ML Classifiers
 This project implements a machine learning pipeline to predict rainfall occurrence (yes or no) based on meteorological data. The workflow includes data preprocessing, feature selection, class imbalance handling, model training, evaluation, and visualization.
 
-📁 Project Overview
+Project Overview
 Goal: Predict whether it will rain based on weather features.
 
 Models Used: Logistic Regression, XGBoost, and SVM (RBF kernel)
@@ -10,7 +10,7 @@ Techniques: Data cleaning, visualization, feature engineering, oversampling (SMO
 
 Evaluation Metrics: AUC-ROC, classification report, confusion matrix
 
-🧾 Dataset
+Dataset
 The dataset Rainfall.csv contains daily weather observations with the target column rainfall labeled as yes or no.
 
 Key Features:
@@ -39,7 +39,7 @@ Balanced the dataset using RandomOverSampler
 
 Normalized features using StandardScaler
 
-🧰 Tech Stack
+Tech Stack
 Python (NumPy, Pandas, Matplotlib, Seaborn)
 
 scikit-learn (SVC, Logistic Regression, model selection & evaluation)
@@ -50,7 +50,7 @@ imblearn (RandomOverSampler)
 
 Matplotlib/Seaborn (for visualizations)
 
-🧪 Model Training and Evaluation
+Model Training and Evaluation
 Models trained:
 
 LogisticRegression()
